@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> FlexBox </title>
+        <style>
+        .wrapper {
+            display:flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+        .header {
+            background: red;
+            padding: 10px;
+        }
+        .footer {
+            background: lightgreen;
+            padding: 10px;
+        }
+        .main {
+            display: flex;
+            flex-direction: row;
+        }
+        .aside {
+            padding: 30px;
+        }
+        .aside-left {
+            background: yellow;
+            order: 1;
+            flex: 2;
+        }
+        .aside-right {
+            background: pink;
+            order: 3;
+            flex: 2;
+        }
+        .article {
+            background: blue;
+            order: 2;
+            flex: 6;
+            padding: 60px;
+            text-align: center;
+        }
+        </style>
+    </head>
+    <body>
+        <div class="wrapper">
+
+            <header class="header"> </header>
+
+            <main class="main">
+               <aside class="aside aside-left"> Left</aside>
+               <aside class="aside aside-right"> Right</aside>
+               <article class="article">
+                   <p> Какой-то текст</p>
+               </article>
+            </main>
+
+            <footer class="footer"> </footer>
+
+        </div>
+    </body>
+</html>

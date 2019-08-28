@@ -1,0 +1,14 @@
+<script>
+    var bodyMass = prompt('Сколько вы весите кг?',100);
+    var bodyHeight = prompt('Какой ваш рост в см?',100);
+    var index = bodyMass/(bodyHeight*bodyHeight);
+    if (index < 18.5) {
+        alert ('Дефицит массы тела. Ваш индекс = ' + index);
+    } else {
+if (index > 25) {
+    alert ('Избыточная массла тела. Ваш индекс = ' + index);
+}else {
+    alert ('Норма. Ваш индекс = ' + index);
+}
+    }
+</script>

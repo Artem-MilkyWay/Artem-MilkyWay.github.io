@@ -1,0 +1,29 @@
+<html>
+    <head>
+            <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+            <style>
+              img {
+                  height: 250px;
+                  width: 200px;
+                  position: absolute;
+              }
+              .container {
+                  position: relative;
+                  display: flex;
+                  justify-content: center;
+              }
+            </style>
+            <script type="text/javascript">
+            $(document).ready(function(){
+                $(".img-2").click(function(){ $('.img-2').fadeOut() });
+                $('.img-1').click(function(){ $('.img-1').fadeOut() });
+            });
+        </script>
+    </head>  
+<body>
+<div class="container">
+    <img class="img-1" src="2.jpg">
+    <img class="img-2" src="fon4.jpg"
+</div>
+    </body>
+</html>

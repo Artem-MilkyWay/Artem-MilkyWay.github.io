@@ -1,0 +1,35 @@
+<html>
+    <head>
+            <script type="text/javascript"
+            src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js">
+                </script>
+                <script type="text/javascript">
+                    $(document).ready(function(){
+                        $("#but1").click(function() { $("#par").fadeOut(3000) });
+                        $("#but2").click(function() { $("#par").fadeIn(3000) });
+                        $("#but3").click(function() { $("#par").fadeTo(3000, 0.3) });
+                        $("#but4").click(function() { $("#par").fadeTo(3000, 0.8) });
+                    });
+                </script>
+    </head><html>
+    <head>
+            <script type="text/javascript"
+            src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js">
+                </script>
+                <script type="text/javascript">
+                    $(document).ready(function(){
+                        $("#but1").click(function() { $("#par").fadeOut(3000) });
+                        $("#but2").click(function() { $("#par").fadeIn(3000) });
+                        $("#but3").click(function() { $("#par").fadeTo(3000, 0.3) });
+                        $("#but4").click(function() { $("#par").fadeTo(3000, 0.8) });
+                    });
+                </script>
+    </head>
+    <body>
+<p id="par" style="font-size: 20px;"> Я АБЗАЦ</p>
+<input id="but1" type="button" value="Постепенное скрытие">
+<input id="but2" type="button" value="Постепенное появление">
+<input id="but3" type="button" value="Постепенное скрытие до уровня прозрачности 0.3">
+<input id="but4" type="button" value="Постепенное появление до уровня прозрачности 0.8 ">
+    </body>
+</html>
